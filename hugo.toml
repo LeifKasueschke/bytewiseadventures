@@ -2,3 +2,58 @@ baseURL = "https://bytewiseadventures.com/"
 languageCode = "en-us"
 title = "ByteWise Adventures"
 theme = "PaperMod"
+paginate = 10
+defaultContentLanguage = "en"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+
+[params]
+    env = "production"
+    title = "ByteWise Adventures"
+    description = "Exploring Homelabs, Smart Homes & Code"
+    author = "Leif Kasueschke"
+    keywords = ["homelab", "smart home", "self-hosting", "programming", "cloud", "hugo", "blog"]
+    ShowReadingTime = true
+    ShowShareButtons = true
+    ShowPostNavLinks = true
+    ShowCodeCopyButtons = true
+    ShowToc = true
+    TocOpen = false
+    defaultTheme = "auto" # dark, light, auto
+    disableThemeToggle = false
+
+    [params.assets]
+    disableFingerprinting = true
+
+    [params.profileMode]
+    enabled = false
+
+    [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/LeifKasueschke"
+
+    [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/leif-kasueschke/"
+
+    [[params.socialIcons]]
+    name = "email"
+    url = "mailto:contact@bytewiseadventures.com"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[markup]
+  [markup.highlight]
+    noClasses = false
