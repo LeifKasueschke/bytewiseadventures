@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://bytewiseadventures.com/sitemap.xml
