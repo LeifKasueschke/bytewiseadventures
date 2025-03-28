@@ -2,10 +2,12 @@ baseURL = "https://bytewiseadventures.com/"
 languageCode = "en-us"
 title = "ByteWise Adventures"
 theme = "PaperMod"
-paginate = 10
 defaultContentLanguage = "en"
 enableInlineShortcodes = true
 enableRobotsTXT = true
+
+[pagination]
+    pagerSize = 10
 
 [params]
     env = "production"
